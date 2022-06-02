@@ -1,0 +1,15 @@
+<html>
+   <body onload = checkscope();>   
+      <script type = "text/javascript">
+         
+            const myVar = "global";      // Declare a global variable
+              console.log(myVar)
+            function checkscope( ) {
+               var myVar = "local";    // Declare a local variable
+               document.write(myVar);
+               console.log(myVar);
+            }
+        
+      </script>     
+   </body>
+</html>
